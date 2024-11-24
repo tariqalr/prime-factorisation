@@ -4,6 +4,7 @@ public class ArrayQueue<T> {
 	private int size, maxsize;
 	private T[] array;
 	
+	@SuppressWarnings("unchecked")
 	public ArrayQueue(int maxsize){
 		head=0; tail=0;
 		size=0; this.maxsize=maxsize;

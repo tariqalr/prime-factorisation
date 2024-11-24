@@ -153,6 +153,8 @@ public class PrimeFactoriser {
 		}
 		long endTime=System.currentTimeMillis();
 		System.out.println("Factorising the first 10^6 numbers took "+(endTime-startTime)/1000 + "."+(endTime-startTime)%1000+" seconds.");
+
+		input.close();
 	}
 
 }

@@ -143,13 +143,13 @@ int main(){
 
 
 
-	struct timeval start, stop;
-	uint64_t j;
-	puts("Starting factorisation of first 10^7 numbers...");
-	gettimeofday(&start,NULL);
-	for (j=2; j<10000000; j++){
-		prime_factorisation(j,&factors_count);
-	}
-	gettimeofday(&stop,NULL);
-	printf("Factorising the first 10^7 numbers took %lu.%lu seconds.",(stop.tv_sec - start.tv_sec), (stop.tv_usec - start.tv_usec));
+	// struct timeval start, stop;
+	// uint64_t j;
+	// puts("Starting factorisation of first 10^7 numbers...");
+	// gettimeofday(&start,NULL);
+	// for (j=2; j<10000000; j++){
+	// 	prime_factorisation(j,&factors_count);
+	// }
+	// gettimeofday(&stop,NULL);
+	// printf("Factorising the first 10^7 numbers took %lu.%lu seconds.",(stop.tv_sec - start.tv_sec), (stop.tv_usec - start.tv_usec));
 }
